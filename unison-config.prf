@@ -1,0 +1,27 @@
+# Roots for sync
+root = /vagrant
+root = /vagrant.sync
+
+# Ignore patterns
+ignore = Name {.git*,.vagrant/,.unison/,*.DS_Store,bower_components,node_modules,*.sublime-*}
+
+# Don't synchronize permission bits
+perms = 0
+
+# Batch mode: ask no questions at all
+batch = true
+
+# Watch for changes
+repeat = 0
+
+# synchronize modification times
+times = true
+
+# Choose this replica's version for conflicting changes
+prefer = newer
+
+# Print nothing except error messages
+silent = true
+
+# Fast checks
+fastcheck = true
