@@ -13,6 +13,10 @@ This box is [hosted on Atlas](https://atlas.hashicorp.com/ColCh/boxes/vagrant-de
 * [VirtualBox](https://www.virtualbox.org/wiki/Downloads) - Free virtualization software 
 * [Vagrant](https://www.vagrantup.com) - Tool for working with VirtualBox images 
 
+## Recommended plugins
+
+* [vagrant-vbguest](https://github.com/dotless-de/vagrant-vbguest): `vagrant plugin install vagrant-vbguest`
+
 ## What's in box
 
 * docker

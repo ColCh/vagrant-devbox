@@ -23,6 +23,11 @@ Vagrant.configure(2) do |config|
         # For more information please check http://docs.vagrantup.com/v2/synced-folders/basic_usage.html
     end
 
+    # Vagrant vagrant-vbguest plugin
+    # set auto_update to false, if you do NOT want to check the correct
+    # additions version when booting this machine
+    config.vbguest.auto_update = true
+
     # Disable automatic box update checking. If you disable this, then
     # boxes will only be checked for updates when the user runs
     # `vagrant box outdated`. This is not recommended.
